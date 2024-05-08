@@ -17,7 +17,7 @@ const Register = () => {
                     <input className="mt-4 p-3 outline-none bg-slate-900 border-b border-white text-white" placeholder="password" type="password" />
                 </div>
                 <button className="mt-4 w-full bg-gradient-to-br from-[#00a6ff] to-red-500 hover:bg-gradient-to-br hover:from-[#00a6ffec] hover:to-red-400  text-white p-3 rounded-full">Register</button>
-                <p className="mt-2 text-gray-300 text-center">Already have an account? <Link to="/" className="text-[#00a6ff]">Login</Link></p>
+                <p className="mt-2 text-gray-300 text-center">Already have an account? <Link to="/login" className="text-[#00a6ff]">Login</Link></p>
 
             </div>
         </div>
