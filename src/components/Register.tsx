@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom"
+import bg from "../assets/front-view-stacked-books-graduation-cap-ladders-education-day.jpg"
 
 
 const Register = () => {
   return (
-    <section className="w-full min-h-screen flex p-4 justify-center items-center bg-slate-900">
-        <div className="grid grid-cols-2 w-1/2 h-96 border-2 border-blue-600 shadow-lg shadow-blue-200 rounded">
+    <section style={{ backgroundImage: `url(${bg})`}} className="bg-cover bg-center object-cover">
+    <div className="w-full min-h-screen flex p-4 justify-center items-center">
+        <div className="grid grid-cols-2 w-1/2 h-96 border-2 border-blue-950 shadow-lg shadow-blue-200 rounded-3xl backdrop-blur-sm bg-slate-950 bg-opacity-90">
 
         <div className="w-full p-3 flex flex-col justify-center items-center">
             <p className="text-gray-200 text-3xl font-bold max-w-min">Register To Adjust With University Life.</p>
@@ -21,6 +23,7 @@ const Register = () => {
 
             </div>
         </div>
+    </div>
     </section>
   )
 }
